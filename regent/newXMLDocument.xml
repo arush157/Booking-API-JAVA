@@ -1,0 +1,51 @@
+<PNR RLOC="AC7WZN" PNRLocked="False" PNRLockedReason="" SecureFlight="False" sfpddob="N" sfpdgndr="N" showFares="True" editFlights="True" editProducts="True"> 
+    <Names> 
+        <PAX GrpNo="1" GrpPaxNo="1" PaxNo="1" Title="MR" FirstName="ARUSH" Surname="SHAKILUR" PaxType="AD" Age="" awards="0"/> 
+    </Names> 
+    <Itinerary> 
+        <Itin Line="1" AirID="RX" FltNo="0711" Class="M" DepDate="2018-07-03" Depart="DAC" Arrive="CGP" Status="HK" PaxQty="1" DepTime="08:30:00" ArrTime="09:15:00" ArrOfst=" " ddaygmt="2018-07-03" dtimgmt="02:30:00" adaygmt="2018-07-03" atimgmt="03:15:00" Stops="0" Cabin="Y" GDSID="" GDSRLoc="" DMap="" AMap="" SecID="" SecRLoc="" MSL="" Hosted="1" nostop="" cnx="" ClassBand="" onlineCheckin="False" OperatedBy="" OAWebsite="" SelectSeat="True" MMBSelectSeat="True"/> 
+        <Itin Line="2" AirID="RX" FltNo="0724" Class="M" DepDate="2018-07-05" Depart="CGP" Arrive="DAC" Status="HK" PaxQty="1" DepTime="08:15:00" ArrTime="09:00:00" ArrOfst=" " ddaygmt="2018-07-05" dtimgmt="02:15:00" adaygmt="2018-07-05" atimgmt="03:00:00" Stops="0" Cabin="Y" GDSID="" GDSRLoc="" DMap="" AMap="" SecID="" SecRLoc="" MSL="" Hosted="1" nostop="" cnx="" ClassBand="" onlineCheckin="False" OperatedBy="" OAWebsite="" SelectSeat="True" MMBSelectSeat="True"/> 
+    </Itinerary> 
+    <MPS/> 
+    <Contacts> 
+        <CTC Line="1" CTCID="E" Pax="">SHAKILUR157.NSU@GMAIL.COM</CTC> 
+        <CTC Line="2" CTCID="M" Pax="">01685554890</CTC> 
+    </Contacts> 
+    <APFAX/> 
+    <GenFax/> 
+    <FareQuote> 
+        <FQItin Seg="1" Cur="BDT" CurInf="2,1,1" FQI="SITI 3428" FQB="MTESTOW" Total="1" Fare="1.00" Tax1="0.00" Tax2="0" Tax3="0" miles="0"/> 
+        <FQItin Seg="2" Cur="BDT" CurInf="2,1,1" FQI="SITI 884" FQB="MOW" Total="6200" Fare="5671.00" Tax1="529.00" Tax2="0" Tax3="0" miles="0"/> 
+        <FareStore FSID="FQC" Pax="1" Cur="BDT" CurInf="2,1,1" Total="6201.00"> 
+            <SegmentFS SegFSID="" Seg="1" Fare="1.00" Tax1="0.00" Tax2="0" Tax3="0" miles="0" disc="0"/> 
+            <SegmentFS SegFSID="" Seg="2" Fare="5671.00" Tax1="529.00" Tax2="0" Tax3="0" miles="0" disc="0"/> 
+        </FareStore> 
+        <FareStore FSID="Total" Pax="" Cur="BDT" CurInf="2,1,1" Total="6201.00"/> 
+        <FareTax> 
+            <PaxTax Seg="2" Pax="1" Code="OW" Cur="BDT" Amnt="500.00" CurInf="2,1,1"/> 
+            <PaxTax Seg="2" Pax="1" Code="BD" Cur="BDT" Amnt="25.00" CurInf="2,1,1"/> 
+            <PaxTax Seg="2" Pax="1" Code="E5" Cur="BDT" Amnt="4.00" CurInf="2,1,1"/> 
+        </FareTax> 
+    </FareQuote> 
+    <Payments> 
+        <FOP Line="1" FOPID="III" PayCur="BDT" PayAmt="6201.00" PayRef="DAC0833" PNRCur="BDT" PNRAmt="6201.00" PNRExRate="1" PayDate="02JUL"/> 
+    </Payments> 
+    <TimeLimits/> 
+    <Tickets> 
+        <TKT Pax="1" TKTID="ETKT" TktNo="652 2501782164" Coupon="01" TktFltDate="03JUL2018" TktFltNo="RX0711" TktDepart="DAC" TktArrive="CGP" TktBClass="M" IssueDate="02JUL2018" Status="O" SegNo="01" Title="MR" Firstname="ARUSH" Surname="SHAKILUR" TktFor=""/> 
+        <TKT Pax="1" TKTID="ETKT" TktNo="652 2501782164" Coupon="02" TktFltDate="05JUL2018" TktFltNo="RX0724" TktDepart="CGP" TktArrive="DAC" TktBClass="M" IssueDate="02JUL2018" Status="O" SegNo="02" Title="MR" Firstname="ARUSH" Surname="SHAKILUR" TktFor=""/> 
+    </Tickets> 
+    <Remarks/> 
+    <TourOp/> 
+    <RLE RLOC="AC7WZN" AirID="RX" IssOffCode="DAC0833" City="DAC" Cur="BDT" CurInf="2,1,1" SineCode="TS" RLEDate="2018-07-02T04:00:22" issagtidpnr="" issagtidtkt=""/> 
+    <Basket> 
+        <Outstanding cur="BDT" CurInf="2,1,1" amount="0" info=""/> 
+        <Outstandingairmiles cur="BDT" CurInf="2,1,1" amount="-5672.00" info="Outstanding Currency and Airmiles" airmiles="0"/> 
+    </Basket> 
+    <zpay/> 
+    <pnrfields originissoffcode="DAC0833"/> 
+    <fqfields> 
+        <fqfield line="1" fareid="3428" finf="0,0,1"/> 
+        <fqfield line="2" fareid="884" finf="0,0,1"/> 
+    </fqfields> 
+</PNR>
